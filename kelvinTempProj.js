@@ -12,6 +12,10 @@ console.log(`The temparature is ${newton} degrees Newton.`);
 fahrenheit = Math.floor(fahrenheit);
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
 
+//The rankine conversion is the same as the fahrenheit conversion except we add a constant of 459.67
+const rankine = fahrenheit + 459.67;
+console.log(`The temperature is ${rankine} degrees Rankine.`);
+
 //NOTE THE ONLY CONSTANT TO BE CHANGED IN VALUE FOR ACCURATE RESULTS IS KELVIN
 
 
